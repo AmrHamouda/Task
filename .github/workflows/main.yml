@@ -7,13 +7,13 @@ on:
 
 
 
- jobs:
-   build:
-     runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-     steps:
-       - name: 'Testing Github Action'
-         run: pwd 
+    steps:
+      - name: 'Testing Github Action'
+        run: pwd 
  
          - name: 'Testing printing'
            run: echo Amr
