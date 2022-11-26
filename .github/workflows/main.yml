@@ -3,19 +3,13 @@ on:
     branches:
       - master
 
-
-
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Testing Github Action'
-        run: pwd 
- 
-         - name: 'Testing printing'
-           run: echo Amr
+      - name: "Testing Github Action"
+        run: pwd
 
-
+      - name: "Testing printing"
+        run: echo Amr
